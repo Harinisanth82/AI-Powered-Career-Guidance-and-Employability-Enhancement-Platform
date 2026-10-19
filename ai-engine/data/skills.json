@@ -1,0 +1,227 @@
+[
+  {
+    "id": "python",
+    "name": "Python",
+    "category": "Programming Languages",
+    "difficulty": "Beginner",
+    "estimated_hours": 60,
+    "prerequisites": [],
+    "description": "High-level programming language known for clean syntax, versatile standard library, and dominance in data science and backend engineering."
+  },
+  {
+    "id": "javascript",
+    "name": "JavaScript",
+    "category": "Programming Languages",
+    "difficulty": "Beginner",
+    "estimated_hours": 50,
+    "prerequisites": [],
+    "description": "Core language of the web powering interactive frontends, server-side Node.js applications, and browser APIs."
+  },
+  {
+    "id": "typescript",
+    "name": "TypeScript",
+    "category": "Programming Languages",
+    "difficulty": "Intermediate",
+    "estimated_hours": 35,
+    "prerequisites": ["javascript"],
+    "description": "Statically typed superset of JavaScript providing compile-time type safety, interfaces, and maintainable enterprise codebases."
+  },
+  {
+    "id": "java",
+    "name": "Java",
+    "category": "Programming Languages",
+    "difficulty": "Intermediate",
+    "estimated_hours": 70,
+    "prerequisites": [],
+    "description": "Object-oriented, statically typed platform language widely utilized in enterprise backends, Android systems, and financial architectures."
+  },
+  {
+    "id": "cpp",
+    "name": "C++",
+    "category": "Programming Languages",
+    "difficulty": "Advanced",
+    "estimated_hours": 85,
+    "prerequisites": [],
+    "description": "High-performance systems programming language with manual memory control, pointers, templates, and low runtime overhead."
+  },
+  {
+    "id": "react",
+    "name": "React",
+    "category": "Frontend Frameworks",
+    "difficulty": "Intermediate",
+    "estimated_hours": 55,
+    "prerequisites": ["javascript"],
+    "description": "Declarative component-based UI library utilizing virtual DOM, hooks, state management, and vibrant ecosystem."
+  },
+  {
+    "id": "nodejs",
+    "name": "Node.js",
+    "category": "Backend",
+    "difficulty": "Intermediate",
+    "estimated_hours": 45,
+    "prerequisites": ["javascript"],
+    "description": "Asynchronous event-driven JavaScript runtime built on Chrome's V8 engine for building scalable server-side network applications."
+  },
+  {
+    "id": "express",
+    "name": "Express",
+    "category": "Backend",
+    "difficulty": "Beginner",
+    "estimated_hours": 25,
+    "prerequisites": ["nodejs"],
+    "description": "Fast, unopinionated, minimalist web framework for Node.js powering REST APIs and routing middleware."
+  },
+  {
+    "id": "spring-boot",
+    "name": "Spring Boot",
+    "category": "Backend",
+    "difficulty": "Advanced",
+    "estimated_hours": 65,
+    "prerequisites": ["java"],
+    "description": "Enterprise microservice framework facilitating stand-alone, production-grade Spring applications with dependency injection."
+  },
+  {
+    "id": "fastapi",
+    "name": "FastAPI",
+    "category": "Backend",
+    "difficulty": "Intermediate",
+    "estimated_hours": 30,
+    "prerequisites": ["python"],
+    "description": "Modern, fast web framework for building APIs with Python based on standard type hints and OpenAPI schemas."
+  },
+  {
+    "id": "sql",
+    "name": "SQL & Relational Databases",
+    "category": "Databases",
+    "difficulty": "Beginner",
+    "estimated_hours": 40,
+    "prerequisites": [],
+    "description": "Structured query language for schema design, indexing, transactions (ACID), joins, and relational querying in PostgreSQL/MySQL."
+  },
+  {
+    "id": "mongodb",
+    "name": "MongoDB",
+    "category": "Databases",
+    "difficulty": "Beginner",
+    "estimated_hours": 30,
+    "prerequisites": [],
+    "description": "Document-oriented NoSQL database supporting dynamic JSON-like document models, aggregations, and horizontal sharding."
+  },
+  {
+    "id": "rest-api",
+    "name": "REST APIs",
+    "category": "Architecture",
+    "difficulty": "Beginner",
+    "estimated_hours": 25,
+    "prerequisites": [],
+    "description": "Representational State Transfer principles including HTTP verbs, status codes, payload formatting, idempotency, and contract design."
+  },
+  {
+    "id": "docker",
+    "name": "Docker",
+    "category": "DevOps & Cloud",
+    "difficulty": "Intermediate",
+    "estimated_hours": 35,
+    "prerequisites": ["linux"],
+    "description": "Platform for containerizing applications with standardized environments, Dockerfiles, multi-stage builds, and compose networks."
+  },
+  {
+    "id": "kubernetes",
+    "name": "Kubernetes",
+    "category": "DevOps & Cloud",
+    "difficulty": "Advanced",
+    "estimated_hours": 75,
+    "prerequisites": ["docker"],
+    "description": "Production-grade container orchestration system for automating application deployment, scaling, pods, services, and ingress."
+  },
+  {
+    "id": "linux",
+    "name": "Linux & Bash",
+    "category": "DevOps & Systems",
+    "difficulty": "Beginner",
+    "estimated_hours": 30,
+    "prerequisites": [],
+    "description": "UNIX-based operating system administration, permissions, shell scripting, process management, and terminal tooling."
+  },
+  {
+    "id": "git",
+    "name": "Git & Version Control",
+    "category": "Tools",
+    "difficulty": "Beginner",
+    "estimated_hours": 20,
+    "prerequisites": [],
+    "description": "Distributed version control system for tracking source code changes, branching strategies, merges, rebasing, and pull requests."
+  },
+  {
+    "id": "data-structures",
+    "name": "Data Structures & Algorithms",
+    "category": "Computer Science",
+    "difficulty": "Advanced",
+    "estimated_hours": 90,
+    "prerequisites": [],
+    "description": "Arrays, linked lists, trees, graphs, dynamic programming, sorting algorithms, and asymptotic complexity analysis."
+  },
+  {
+    "id": "pandas",
+    "name": "Pandas & NumPy",
+    "category": "Data Science",
+    "difficulty": "Intermediate",
+    "estimated_hours": 45,
+    "prerequisites": ["python"],
+    "description": "Core scientific computing and data wrangling libraries for multi-dimensional arrays, dataframes, and transformations."
+  },
+  {
+    "id": "machine-learning",
+    "name": "Machine Learning",
+    "category": "AI & ML",
+    "difficulty": "Advanced",
+    "estimated_hours": 80,
+    "prerequisites": ["python", "pandas"],
+    "description": "Supervised and unsupervised algorithms (linear/logistic regression, decision trees, random forests, clustering, gradient boosting)."
+  },
+  {
+    "id": "deep-learning",
+    "name": "Deep Learning",
+    "category": "AI & ML",
+    "difficulty": "Advanced",
+    "estimated_hours": 95,
+    "prerequisites": ["machine-learning"],
+    "description": "Neural networks, gradient descent backpropagation, convolutional networks, attention mechanisms, and PyTorch architectures."
+  },
+  {
+    "id": "network-security",
+    "name": "Network Security & Cryptography",
+    "category": "Security",
+    "difficulty": "Advanced",
+    "estimated_hours": 70,
+    "prerequisites": ["linux"],
+    "description": "Packet inspection, SSL/TLS handshakes, asymmetric encryption, firewalls, threat models, and vulnerability scanning."
+  },
+  {
+    "id": "figma",
+    "name": "Figma & UI Prototyping",
+    "category": "Design",
+    "difficulty": "Intermediate",
+    "estimated_hours": 40,
+    "prerequisites": [],
+    "description": "Interface design, interactive prototyping, component variants, auto-layout, typography systems, and design tokens."
+  },
+  {
+    "id": "data-visualization",
+    "name": "Data Visualization & BI",
+    "category": "Data Science",
+    "difficulty": "Intermediate",
+    "estimated_hours": 35,
+    "prerequisites": ["sql"],
+    "description": "Visual data communication using Power BI, Tableau, or Seaborn to create executive dashboards and cohort visualizations."
+  },
+  {
+    "id": "product-strategy",
+    "name": "Product Strategy & Agile",
+    "category": "Product",
+    "difficulty": "Intermediate",
+    "estimated_hours": 40,
+    "prerequisites": [],
+    "description": "User story mapping, sprint management, prioritization matrices (RICE), KPI definition, and product discovery."
+  }
+]

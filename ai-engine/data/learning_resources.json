@@ -1,0 +1,134 @@
+[
+  {
+    "id": "res-1",
+    "title": "MDN JavaScript In-Depth Guide & Execution Context",
+    "skill": "javascript",
+    "career": "Full Stack Developer",
+    "difficulty": "Beginner to Intermediate",
+    "type": "Documentation",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide",
+    "estimated_time": "15 Hours",
+    "description": "Comprehensive reference covering closures, event loop, prototypes, asynchronous promises, and ES6+ syntax."
+  },
+  {
+    "id": "res-2",
+    "title": "React Official Documentation: Thinking in React & Hooks",
+    "skill": "react",
+    "career": "Full Stack Developer",
+    "difficulty": "Intermediate",
+    "type": "Tutorial",
+    "url": "https://react.dev/learn",
+    "estimated_time": "20 Hours",
+    "description": "Foundational guide to component lifecycles, state isolation, effects, custom hooks, and concurrent rendering."
+  },
+  {
+    "id": "res-3",
+    "title": "Node.js & Express RESTful API Production Architecture",
+    "skill": "nodejs",
+    "career": "Full Stack Developer",
+    "difficulty": "Intermediate",
+    "type": "Course",
+    "url": "https://nodejs.org/en/docs/guides",
+    "estimated_time": "25 Hours",
+    "description": "Designing stateless REST controllers, JWT middleware, schema validation, rate-limiting, and error handling."
+  },
+  {
+    "id": "res-4",
+    "title": "PostgreSQL Official Tutorial & Query Performance Optimization",
+    "skill": "sql",
+    "career": "Backend Developer",
+    "difficulty": "Intermediate",
+    "type": "Documentation",
+    "url": "https://www.postgresql.org/docs/current/tutorial.html",
+    "estimated_time": "18 Hours",
+    "description": "Relational schemas, ACID transactions, B-Tree indexing, execution plans (EXPLAIN ANALYZE), and complex joins."
+  },
+  {
+    "id": "res-5",
+    "title": "Scikit-Learn Machine Learning in Python Handbook",
+    "skill": "machine-learning",
+    "career": "Data Scientist",
+    "difficulty": "Advanced",
+    "type": "Course",
+    "url": "https://scikit-learn.org/stable/user_guide.html",
+    "estimated_time": "35 Hours",
+    "description": "Pipeline construction, cross-validation, hyperparameter tuning with GridSearchCV, and ensemble methods."
+  },
+  {
+    "id": "res-6",
+    "title": "Deep Learning with PyTorch: Zero to Neural Architectures",
+    "skill": "deep-learning",
+    "career": "AI/ML Engineer",
+    "difficulty": "Advanced",
+    "type": "Tutorial",
+    "url": "https://pytorch.org/tutorials/",
+    "estimated_time": "40 Hours",
+    "description": "Tensors, autograd, custom neural modules, loss functions, optimizers, and checkpointing for deep models."
+  },
+  {
+    "id": "res-7",
+    "title": "Docker & Containerization Deep Dive",
+    "skill": "docker",
+    "career": "Cloud/DevOps Engineer",
+    "difficulty": "Intermediate",
+    "type": "Tutorial",
+    "url": "https://docs.docker.com/get-started/",
+    "estimated_time": "14 Hours",
+    "description": "Building reproducible Dockerfiles, minimizing image layers, multi-stage builds, and Docker Compose networking."
+  },
+  {
+    "id": "res-8",
+    "title": "Kubernetes The Hard Way & Production Cluster Setup",
+    "skill": "kubernetes",
+    "career": "Cloud/DevOps Engineer",
+    "difficulty": "Advanced",
+    "type": "Exercise",
+    "url": "https://kubernetes.io/docs/tutorials/",
+    "estimated_time": "30 Hours",
+    "description": "Deploying control planes, worker nodes, pod networking, ingress controllers, config maps, and persistent volumes."
+  },
+  {
+    "id": "res-9",
+    "title": "Linux Command Line & Shell Scripting Bible",
+    "skill": "linux",
+    "career": "Cloud/DevOps Engineer",
+    "difficulty": "Beginner to Intermediate",
+    "type": "Exercise",
+    "url": "https://linuxjourney.com/",
+    "estimated_time": "16 Hours",
+    "description": "File permissions, systemd service management, process signals, pipes, sed/awk, and automated bash scripts."
+  },
+  {
+    "id": "res-10",
+    "title": "Enterprise Spring Boot & Microservices Masterclass",
+    "skill": "spring-boot",
+    "career": "Java Developer",
+    "difficulty": "Advanced",
+    "type": "Course",
+    "url": "https://spring.io/guides",
+    "estimated_time": "32 Hours",
+    "description": "Spring Data JPA, Hibernate caching, Actuator metrics, Spring Security OAuth2, and microservice discovery."
+  },
+  {
+    "id": "res-11",
+    "title": "Figma Design Systems & Accessible Component Libraries",
+    "skill": "figma",
+    "career": "UI/UX Designer",
+    "difficulty": "Intermediate",
+    "type": "Tutorial",
+    "url": "https://help.figma.com/hc/en-us/categories/360002051613-Design-in-Figma",
+    "estimated_time": "20 Hours",
+    "description": "Atomic design tokens, responsive auto-layout components, prototyping variables, and WCAG contrast testing."
+  },
+  {
+    "id": "res-12",
+    "title": "OWASP Top 10 Web Application Security Hands-on Lab",
+    "skill": "network-security",
+    "career": "Cybersecurity Specialist",
+    "difficulty": "Advanced",
+    "type": "Exercise",
+    "url": "https://owasp.org/www-project-top-ten/",
+    "estimated_time": "24 Hours",
+    "description": "Understanding SQL injection, cross-site scripting (XSS), broken access control, and defensive input sanitization."
+  }
+]

@@ -1,0 +1,222 @@
+[
+  {
+    "id": "full-stack-developer",
+    "career": "Full Stack Developer",
+    "track": "Web & Software Engineering",
+    "description": "Architects and develops both client-facing frontends and server-side backend services, integrating databases, APIs, and modern deployment pipelines.",
+    "skills": ["JavaScript", "TypeScript", "React", "Node.js", "Express", "SQL", "MongoDB", "REST APIs", "Git", "HTML/CSS"],
+    "soft_skills": ["Problem Solving", "Collaboration", "Product Thinking", "Communication"],
+    "tools": ["VS Code", "Postman", "Docker", "Git/GitHub", "Vite", "Jest"],
+    "education": ["Computer Science", "Information Technology", "Software Engineering", "Related Technical Field"],
+    "projects": ["Full-Stack Job Portal", "E-Commerce Microservice Platform", "Real-Time Collaboration Board", "SaaS Dashboard with Auth"],
+    "difficulty": "Intermediate to Advanced",
+    "learning_path": [
+      "Modern Web Fundamentals & TypeScript",
+      "Component Architecture with React",
+      "Server-side Development with Node.js & Express",
+      "Relational & Document Databases (PostgreSQL / MongoDB)",
+      "RESTful API Design & Authentication (JWT/OAuth)",
+      "Testing, Containerization & CI/CD Deployment"
+    ]
+  },
+  {
+    "id": "data-scientist",
+    "career": "Data Scientist",
+    "track": "Data & Artificial Intelligence",
+    "description": "Transforms structured and unstructured data into actionable predictive insights, statistical models, and business intelligence.",
+    "skills": ["Python", "SQL", "Pandas", "NumPy", "Scikit-learn", "Statistical Modeling", "Data Visualization", "Hypothesis Testing", "Machine Learning"],
+    "soft_skills": ["Analytical Rigor", "Data Storytelling", "Critical Thinking", "Stakeholder Communication"],
+    "tools": ["Jupyter Lab", "Pandas", "Matplotlib/Seaborn", "PostgreSQL", "Git", "Tableau"],
+    "education": ["Statistics", "Data Science", "Computer Science", "Mathematics", "Economics"],
+    "projects": ["Customer Churn Prediction Engine", "Market Basket Analysis Pipeline", "Automated EDA & Feature Store", "Financial Risk Scoring Model"],
+    "difficulty": "Advanced",
+    "learning_path": [
+      "Advanced Python & Exploratory Data Analysis",
+      "Linear Algebra, Calculus & Inferential Statistics",
+      "Database Querying & Complex SQL Aggregations",
+      "Supervised & Unsupervised Machine Learning",
+      "Model Evaluation Metrics & Cross-Validation",
+      "Production ML Pipelines & Model Serving"
+    ]
+  },
+  {
+    "id": "ai-ml-engineer",
+    "career": "AI/ML Engineer",
+    "track": "Data & Artificial Intelligence",
+    "description": "Designs, trains, optimizes, and productionizes machine learning architectures, deep learning models, and scalable inference APIs.",
+    "skills": ["Python", "Machine Learning", "Deep Learning", "TensorFlow/PyTorch", "Scikit-learn", "Data Preprocessing", "Feature Engineering", "FastAPI", "Docker", "Model Monitoring"],
+    "soft_skills": ["Algorithmic Thinking", "Research Translation", "Experimentation Rigor", "System Design"],
+    "tools": ["PyTorch", "MLflow", "FastAPI", "Docker", "Git", "Weights & Biases", "ONNX"],
+    "education": ["Computer Science", "Artificial Intelligence", "Electrical/Computer Engineering", "Applied Math"],
+    "projects": ["Computer Vision Defect Classifier", "Domain-Specific NLP Classifier", "Real-Time Inference REST API", "End-to-End MLOps Pipeline"],
+    "difficulty": "Advanced",
+    "learning_path": [
+      "Mathematics for Machine Learning (Tensors, Optimization)",
+      "Deep Learning Architectures (CNNs, Transformers, Recurrent Nets)",
+      "Feature Engineering & High-Dimensional Preprocessing",
+      "Model Serialization, Serving & REST APIs (FastAPI)",
+      "Containerization & Resource Management (Docker)",
+      "MLOps, Versioning & Drift Detection"
+    ]
+  },
+  {
+    "id": "cloud-devops-engineer",
+    "career": "Cloud/DevOps Engineer",
+    "track": "Cloud & Infrastructure",
+    "description": "Automates cloud infrastructure provisioning, CI/CD deployment pipelines, system observability, and high availability systems.",
+    "skills": ["Linux", "Docker", "Kubernetes", "AWS/GCP", "Terraform", "CI/CD", "Bash Scripting", "Networking", "Monitoring/Prometheus", "Git"],
+    "soft_skills": ["Incident Response", "Automation Mindset", "Reliability Thinking", "Cross-team Coordination"],
+    "tools": ["Docker", "Kubernetes", "GitHub Actions", "Terraform", "Prometheus", "Grafana", "Linux CLI"],
+    "education": ["Computer Science", "Information Systems", "Cloud Computing", "Network Engineering"],
+    "projects": ["Multi-Environment Infrastructure as Code", "Zero-Downtime Automated CI/CD Pipeline", "Kubernetes Cluster Auto-scaler & Ingress", "Observability Dashboard with Alerts"],
+    "difficulty": "Advanced",
+    "learning_path": [
+      "Linux Administration & Bash Scripting",
+      "Containerization Principles with Docker",
+      "Infrastructure as Code with Terraform",
+      "Orchestration with Kubernetes",
+      "Continuous Integration & Delivery Pipelines",
+      "Cloud Security & Distributed Systems Observability"
+    ]
+  },
+  {
+    "id": "cybersecurity-specialist",
+    "career": "Cybersecurity Specialist",
+    "track": "Security & Network Defense",
+    "description": "Protects digital systems, cloud architectures, and networks by identifying vulnerabilities, implementing zero-trust security, and managing incident triage.",
+    "skills": ["Network Security", "Vulnerability Assessment", "Linux Security", "Cryptography", "Penetration Testing Basics", "SIEM & Log Analysis", "Identity & Access Management", "Python Scripting"],
+    "soft_skills": ["Adversarial Thinking", "Ethical Discretion", "Attention to Detail", "Crisis Communication"],
+    "tools": ["Wireshark", "Nmap", "Burp Suite", "Splunk/Elastic", "Metasploit", "Snort"],
+    "education": ["Cybersecurity", "Computer Science", "Information Assurance", "Computer Networks"],
+    "projects": ["Vulnerability Scanner & Threat Matrix", "SOC Log Anomaly Detection System", "Secure Authentication & RBAC Audit", "Network Packet Sniffer & Firewall Rules"],
+    "difficulty": "Advanced",
+    "learning_path": [
+      "TCP/IP Networking & Protocols In-Depth",
+      "Operating System Security & Hardening",
+      "Threat Vectors & OWASP Top 10 Exploits",
+      "Cryptographic Primitives & Key Management",
+      "Security Information & Event Management (SIEM)",
+      "Incident Response & Defense Governance"
+    ]
+  },
+  {
+    "id": "java-developer",
+    "career": "Java Developer",
+    "track": "Enterprise Software Engineering",
+    "description": "Builds robust, enterprise-grade distributed backends and mission-critical systems utilizing Java, Spring Boot, and relational databases.",
+    "skills": ["Java", "Spring Boot", "Hibernate/JPA", "SQL", "Microservices", "REST APIs", "Maven/Gradle", "JUnit/Mockito", "Git", "Docker"],
+    "soft_skills": ["Code Quality", "Architectural Discipline", "Documentation", "Team Collaboration"],
+    "tools": ["IntelliJ IDEA", "Spring Boot", "Maven", "PostgreSQL", "Docker", "Postman"],
+    "education": ["Computer Science", "Information Technology", "Software Engineering"],
+    "projects": ["Enterprise Banking Transaction API", "Spring Boot Microservice Inventory Service", "Multi-tenant RBAC Security Portal", "Kafka Event-Driven Order System"],
+    "difficulty": "Intermediate to Advanced",
+    "learning_path": [
+      "Core Java & Object-Oriented Design Patterns",
+      "JVM Internals, Memory & Multithreading",
+      "Spring Boot Framework & Dependency Injection",
+      "JPA/Hibernate & Enterprise Relational Persistence",
+      "Microservice Architecture & REST API Contracts",
+      "Enterprise Testing & CI/CD Pipelines"
+    ]
+  },
+  {
+    "id": "backend-developer",
+    "career": "Backend Developer",
+    "track": "Web & Software Engineering",
+    "description": "Engineers scalable server-side systems, data storage solutions, asynchronous queues, and high-throughput API endpoints.",
+    "skills": ["Python/Node.js/Go", "SQL", "Database Optimization", "REST APIs", "Caching/Redis", "System Design", "Microservices", "Docker", "Authentication"],
+    "soft_skills": ["Scalability Mindset", "Logical Thinking", "Problem Decomposition", "Clear Documentation"],
+    "tools": ["PostgreSQL", "Redis", "Docker", "Postman", "Git", "Linux CLI"],
+    "education": ["Computer Science", "Software Engineering", "Information Technology"],
+    "projects": ["High-Concurrency Rate Limiter Service", "Distributed Task Queue with Redis", "E-Commerce REST API with Caching", "Database Partitioning & Indexing Benchmarking"],
+    "difficulty": "Intermediate to Advanced",
+    "learning_path": [
+      "Server Runtime & High-Performance Language Fundamentals",
+      "Relational & In-Memory Database Design",
+      "API Protocols: REST, WebSockets & gRPC",
+      "Concurrency, Asynchronous Processing & Queues",
+      "System Design & Scalability Patterns",
+      "Containerization & Microservices Deployment"
+    ]
+  },
+  {
+    "id": "data-analyst",
+    "career": "Data Analyst",
+    "track": "Data & Business Intelligence",
+    "description": "Gathers, cleans, inspects, and visualizes organizational metrics to uncover patterns, forecast trends, and inform strategic decisions.",
+    "skills": ["SQL", "Excel", "Power BI / Tableau", "Python", "Data Cleaning", "Data Visualization", "Descriptive Statistics", "Business Metrics", "Reporting"],
+    "soft_skills": ["Curiosity", "Business Acumen", "Visual Communication", "Presentation"],
+    "tools": ["Excel", "Tableau", "Power BI", "SQL Server / PostgreSQL", "Jupyter", "Pandas"],
+    "education": ["Business Analytics", "Statistics", "Information Systems", "Economics", "Computer Science"],
+    "projects": ["Executive Revenue & KPI Dashboard", "Customer Retention Cohort Analysis", "Supply Chain Inventory Optimization", "E-commerce Funnel Conversion Report"],
+    "difficulty": "Beginner to Intermediate",
+    "learning_path": [
+      "Advanced Excel & Spreadsheet Modeling",
+      "SQL Querying, Window Functions & Joins",
+      "Data Cleaning & Wrangling with Python",
+      "Business Intelligence Dashboards (Power BI / Tableau)",
+      "Statistical Hypothesis Testing & Trend Analysis",
+      "Executive Storytelling & Strategic Reporting"
+    ]
+  },
+  {
+    "id": "ui-ux-designer",
+    "career": "UI/UX Designer",
+    "track": "Design & Human-Computer Interaction",
+    "description": "Researches user behaviors and crafts intuitive, accessible, and visually stunning digital products through wireframing, prototyping, and design systems.",
+    "skills": ["Figma", "User Research", "Wireframing", "Prototyping", "Design Systems", "Usability Testing", "Information Architecture", "UI Design Principles", "Accessibility/WCAG"],
+    "soft_skills": ["Empathy", "Visual Hierarchy", "User Advocacy", "Design Communication"],
+    "tools": ["Figma", "FigJam", "Miro", "Adobe Illustrator", "Maze", "Zeplin"],
+    "education": ["Human-Computer Interaction", "Interaction Design", "Graphic Design", "Digital Media"],
+    "projects": ["Mobile Banking Redesign & Design System", "SaaS Workflow Usability Overhaul", "Healthcare Portal Accessibility Audit", "Onboarding Flow Optimization Case Study"],
+    "difficulty": "Intermediate",
+    "learning_path": [
+      "Design Fundamentals: Typography, Color & Layout Hierarchy",
+      "User Research Methodologies & Persona Mapping",
+      "Information Architecture & User Journey Flows",
+      "Figma Mastery: Components, Variants & Auto-layout",
+      "Interactive Prototyping & Usability Testing",
+      "Design Systems & Developer Hand-off Specs"
+    ]
+  },
+  {
+    "id": "product-manager",
+    "career": "Product Manager",
+    "track": "Product & Strategy",
+    "description": "Guides the vision, execution, and continuous iteration of digital products by aligning customer needs, business objectives, and engineering delivery.",
+    "skills": ["Product Strategy", "Agile/Scrum", "User Story Mapping", "Market Research", "Feature Prioritization", "KPI & Metric Definition", "Wireframing Basics", "Data Analysis"],
+    "soft_skills": ["Cross-functional Leadership", "Strategic Vision", "Negotiation", "Clear Communication"],
+    "tools": ["Jira", "Notion", "Mixpanel", "Figma", "Google Analytics", "Linear"],
+    "education": ["Business Administration", "Computer Science", "Management Information Systems", "Engineering"],
+    "projects": ["B2B SaaS Product Requirements Document (PRD)", "Go-to-Market Strategy & Launch Blueprint", "User Onboarding Funnel Optimization Plan", "Competitor Feature Parity Analysis"],
+    "difficulty": "Intermediate to Advanced",
+    "learning_path": [
+      "Product Discovery & Customer Interviewing",
+      "Roadmapping & Prioritization Frameworks (RICE, MoSCoW)",
+      "Agile Product Delivery & Sprint Management",
+      "Product Analytics & North Star Metric Tracking",
+      "Business Models, Go-To-Market & Pricing",
+      "Leadership Without Authority & Executive Communication"
+    ]
+  },
+  {
+    "id": "software-engineer",
+    "career": "Software Engineer",
+    "track": "Core Computer Science",
+    "description": "Solves complex computational challenges through clean code, data structures, algorithms, and modular software design.",
+    "skills": ["Data Structures & Algorithms", "C++ / Python / Java", "Object-Oriented Design", "System Design Basics", "Git", "Testing & Debugging", "Operating Systems", "SQL"],
+    "soft_skills": ["Algorithmic Problem Solving", "Analytical Thinking", "Continuous Learning", "Teamwork"],
+    "tools": ["Git", "Linux", "VS Code / CLion", "GDB", "Valgrind", "Docker"],
+    "education": ["Computer Science", "Software Engineering", "Computer Engineering"],
+    "projects": ["Custom File Compression Engine", "Distributed Cache Implementation", "Multi-Threaded HTTP Web Server", "Graph Algorithm Network Simulator"],
+    "difficulty": "Advanced",
+    "learning_path": [
+      "Mastery of Core Data Structures (Trees, Graphs, Hash Maps)",
+      "Algorithm Design, Time/Space Complexity (Big-O)",
+      "Memory Management, Pointers & System Calls",
+      "Object-Oriented Analysis & Design Patterns",
+      "Concurrent Programming & Thread Synchronization",
+      "System Architecture & Automated Unit Testing"
+    ]
+  }
+]

@@ -1,0 +1,138 @@
+[
+  {
+    "id": "q-1",
+    "career": "Full Stack Developer",
+    "category": "Technical",
+    "difficulty": "Intermediate",
+    "question": "How does the JavaScript Event Loop handle asynchronous operations such as setTimeout and Promises? Explain microtasks versus macrotasks.",
+    "reference_concepts": [
+      "call stack", "event loop", "callback queue", "microtask queue", "macrotask queue",
+      "promise", "setTimeout", "execution context", "single threaded", "event loop ticks"
+    ],
+    "sample_reference_answer": "JavaScript runs on a single-threaded execution context with a call stack. Asynchronous operations like fetch and promises produce microtasks, while timer callbacks like setTimeout produce macrotasks. When the synchronous call stack empties, the event loop prioritizes and exhausts all pending microtasks before executing the next macrotask from the task queue.",
+    "rubrics": {
+      "technical": "Correct distinction between microtask and macrotask queues and call stack execution flow",
+      "relevance": "Directly explains the mechanism rather than just reciting syntax",
+      "structure": "Logical progression from call stack to event loop tick"
+    }
+  },
+  {
+    "id": "q-2",
+    "career": "Full Stack Developer",
+    "category": "Technical",
+    "difficulty": "Intermediate",
+    "question": "Explain how React manages re-rendering and the significance of keys in lists and virtual DOM reconciliation.",
+    "reference_concepts": [
+      "virtual dom", "reconciliation", "re-render", "diffing algorithm", "keys",
+      "state changes", "props", "fiber tree", "component lifecycle"
+    ],
+    "sample_reference_answer": "React uses a virtual DOM representation to batch and optimize updates. When component state or props change, React runs its reconciliation diffing algorithm to compute DOM differences. Stable keys in lists allow React to identify which items have changed, moved, or been deleted, avoiding unnecessary DOM re-creations.",
+    "rubrics": {
+      "technical": "Understanding of diffing algorithm and key stability",
+      "relevance": "Focus on rendering performance and identity matching",
+      "structure": "Clear connection between state change and virtual DOM reconciliation"
+    }
+  },
+  {
+    "id": "q-3",
+    "career": "Data Scientist",
+    "category": "Technical",
+    "difficulty": "Advanced",
+    "question": "What is the difference between Precision and Recall, and how do you choose which metric to optimize for an imbalanced classification problem?",
+    "reference_concepts": [
+      "precision", "recall", "confusion matrix", "true positives", "false positives",
+      "false negatives", "f1-score", "class imbalance", "trade-off", "cost of error"
+    ],
+    "sample_reference_answer": "Precision measures the proportion of predicted positives that are truly positive (TP / (TP + FP)), penalizing false alarms. Recall measures the proportion of actual positives that were correctly captured (TP / (TP + FN)), penalizing missed detections. In medical diagnostics or fraud detection where missing a case is catastrophic, we prioritize recall; in spam filtering or recommendation where false positives degrade trust, precision is favored.",
+    "rubrics": {
+      "technical": "Accurate formulas and explanation of trade-off",
+      "relevance": "Clear business scenario mapping to each metric",
+      "structure": "Definition followed by comparison and domain trade-offs"
+    }
+  },
+  {
+    "id": "q-4",
+    "career": "AI/ML Engineer",
+    "category": "Technical",
+    "difficulty": "Advanced",
+    "question": "How do you detect and mitigate overfitting in deep neural networks and machine learning models?",
+    "reference_concepts": [
+      "overfitting", "validation loss", "training loss", "regularization", "l1 l2",
+      "dropout", "early stopping", "cross validation", "data augmentation", "model capacity"
+    ],
+    "sample_reference_answer": "Overfitting occurs when training loss continues decreasing while validation loss begins diverging upward. Detection involves monitoring train vs validation curves and cross-validation scores. Mitigation techniques include L1/L2 weight regularization, dropout layers, early stopping when validation metric plateaus, data augmentation to expand diversity, and pruning model capacity.",
+    "rubrics": {
+      "technical": "Accurate signs of divergence and concrete regularization techniques",
+      "relevance": "Addresses both detection and practical remedies",
+      "structure": "Structured problem diagnosis followed by mitigation catalog"
+    }
+  },
+  {
+    "id": "q-5",
+    "career": "Cloud/DevOps Engineer",
+    "category": "Technical",
+    "difficulty": "Intermediate",
+    "question": "What are the core differences between a Docker container and a Virtual Machine, and how do namespaces and cgroups enable container isolation?",
+    "reference_concepts": [
+      "docker", "virtual machine", "hypervisor", "guest os", "shared kernel",
+      "namespaces", "cgroups", "isolation", "resource limits", "containerization"
+    ],
+    "sample_reference_answer": "Virtual Machines emulate hardware and run independent guest operating systems on top of a hypervisor. Docker containers share the host Linux kernel and use kernel namespaces to isolate process trees, network interfaces, and mount points, while cgroups (control groups) enforce resource constraints on CPU and memory usage, making containers much more lightweight.",
+    "rubrics": {
+      "technical": "Accurate identification of kernel-level mechanisms (namespaces, cgroups)",
+      "relevance": "Explicit comparison between hypervisor and container isolation",
+      "structure": "High-level contrast followed by low-level kernel primitives"
+    }
+  },
+  {
+    "id": "q-6",
+    "career": "General",
+    "category": "Behavioral",
+    "difficulty": "Intermediate",
+    "question": "Tell me about a time when you encountered a critical technical bug or project blocker close to a deadline. How did you resolve it?",
+    "reference_concepts": [
+      "situation", "task", "action", "result", "troubleshooting",
+      "communication", "root cause", "prioritization", "post-mortem", "learning"
+    ],
+    "sample_reference_answer": "In our capstone project, our production database connections were timing out 48 hours before presentation. As the backend lead, I isolated the logs and discovered unindexed join queries locking connection pools. I added composite indexes, tuned pooling parameters, and added caching. The response latency dropped from 4 seconds to 120ms, and we deployed successfully on schedule.",
+    "rubrics": {
+      "technical": "Demonstrates sound debugging methodology and root cause analysis",
+      "relevance": "Direct answer demonstrating problem ownership under pressure",
+      "structure": "Adheres to the STAR framework (Situation, Task, Action, Result)"
+    }
+  },
+  {
+    "id": "q-7",
+    "career": "General",
+    "category": "Behavioral",
+    "difficulty": "Intermediate",
+    "question": "Describe a scenario where you disagreed with a teammate or stakeholder on an architectural or design choice. How did you handle the situation?",
+    "reference_concepts": [
+      "situation", "task", "action", "result", "empathy",
+      "objective data", "benchmarking", "compromise", "constructive communication", "alignment"
+    ],
+    "sample_reference_answer": "During our API redesign, a teammate wanted to adopt GraphQL while I advocated for RESTful endpoints due to tight deadlines and our existing caching infrastructure. Rather than debating opinions, I created a quick benchmark comparing implementation complexity and caching overhead. We reviewed the trade-offs together and agreed to keep REST for core endpoints while testing GraphQL on a secondary service.",
+    "rubrics": {
+      "technical": "Uses objective benchmarks or trade-off analysis",
+      "relevance": "Professional conflict resolution without defensiveness",
+      "structure": "STAR method clearly articulated"
+    }
+  },
+  {
+    "id": "q-8",
+    "career": "General",
+    "category": "HR",
+    "difficulty": "Beginner",
+    "question": "Why are you interested in pursuing your chosen career track, and how do you stay updated with rapid industry developments?",
+    "reference_concepts": [
+      "motivation", "career goals", "continuous learning", "industry trends",
+      "open source", "documentation", "hands-on projects", "growth mindset"
+    ],
+    "sample_reference_answer": "I am passionate about solving real-world challenges through scalable software and data systems. I actively maintain my skill edge by building end-to-end projects, following official RFCs and engineering blogs from high-scale companies, participating in open-source discussions, and constantly validating concepts with structured assessments.",
+    "rubrics": {
+      "technical": "Authentic curiosity and proactive continuous learning habits",
+      "relevance": "Clear alignment with professional growth trajectory",
+      "structure": "Articulate, confident, and well-structured"
+    }
+  }
+]

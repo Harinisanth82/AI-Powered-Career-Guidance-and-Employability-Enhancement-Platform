@@ -1,0 +1,152 @@
+{
+  "users": {
+    "default_user": {
+      "id": "usr-1",
+      "email": "candidate@example.com",
+      "name": "Alex Mercer",
+      "role": "candidate",
+      "created_at": "2026-03-01T10:00:00Z"
+    }
+  },
+  "profile": {
+    "name": "Alex Mercer",
+    "email": "candidate@example.com",
+    "target_career": "Full Stack Developer",
+    "education_level": "Undergraduate B.Tech Computer Science",
+    "institution": "University Institute of Technology",
+    "cgpa": 8.2,
+    "certifications_count": 2,
+    "skills": {
+      "javascript": 9,
+      "react": 9,
+      "nodejs": 8,
+      "sql": 8,
+      "mongodb": 7,
+      "python": 5,
+      "java": 5,
+      "linux": 6,
+      "docker": 5,
+      "machine_learning": 4,
+      "figma": 5,
+      "cpp": 4,
+      "network_security": 4,
+      "data_science": 4
+    },
+    "interests": "Web Development",
+    "work_style": "Collaborative Teamwork",
+    "career_values": "Continuous Learning & Growth"
+  },
+  "assessment_completed": true,
+  "roadmap": [],
+  "proofs": [
+    {
+      "id": "proof-1",
+      "title": "E-Commerce Microservices Storefront",
+      "type": "GitHub Repository",
+      "url": "https://github.com/alex-mercer/ecommerce-api-store",
+      "verified": true,
+      "badge": "Verified Implementation",
+      "date": "2026-03-15",
+      "skills_verified": [
+        "React",
+        "Node.js",
+        "Express",
+        "PostgreSQL"
+      ],
+      "metrics": {
+        "commits": 42,
+        "tests_passed": 18,
+        "has_readme": true,
+        "has_dockerfile": true
+      }
+    }
+  ],
+  "interviews": [
+    {
+      "id": "int-1",
+      "question_id": "q-1",
+      "date": "2026-03-20",
+      "overall_score": 82.5,
+      "technical_score": 85.0,
+      "relevance_score": 80.0,
+      "verdict": "Competent Response"
+    },
+    {
+      "id": "int-2",
+      "question_id": "q-1",
+      "date": "2026-03-22",
+      "overall_score": 54.9,
+      "technical_score": 47.3,
+      "relevance_score": 55.3,
+      "verdict": "Needs Refinement"
+    },
+    {
+      "id": "int-3",
+      "question_id": "q-1",
+      "date": "2026-03-22",
+      "overall_score": 54.9,
+      "technical_score": 47.3,
+      "relevance_score": 55.3,
+      "verdict": "Needs Refinement"
+    }
+  ],
+  "timeline": [
+    {
+      "id": "ev-8",
+      "type": "interview",
+      "title": "Mock Interview Question Evaluated (Needs Refinement)",
+      "description": "Scored 54.9/100. Tech score: 47.3%, Relevance: 55.3%.",
+      "date": "2026-10-08"
+    },
+    {
+      "id": "ev-7",
+      "type": "interview",
+      "title": "Mock Interview Question Evaluated (Needs Refinement)",
+      "description": "Scored 54.9/100. Tech score: 47.3%, Relevance: 55.3%.",
+      "date": "2026-10-08"
+    },
+    {
+      "id": "ev-6",
+      "type": "assessment",
+      "title": "Assessment Evaluated by Custom ML Model",
+      "description": "Top predicted career: Full Stack Developer (98.5% match score).",
+      "date": "2026-10-08"
+    },
+    {
+      "id": "ev-5",
+      "type": "model_trained",
+      "title": "ML Model Retrained: Logistic Regression",
+      "description": "Achieved 100.0% accuracy, F1: 100.0%. Active version: v20261008185811.",
+      "date": "2026-10-08"
+    },
+    {
+      "id": "ev-1",
+      "type": "assessment",
+      "title": "Multi-Dimensional Career Assessment Completed",
+      "description": "Computed 10 technical and behavioral indicators.",
+      "date": "2026-03-01"
+    },
+    {
+      "id": "ev-2",
+      "type": "model",
+      "title": "Top Career Recommendation Generated",
+      "description": "Full Stack Developer matched with 91.4% confidence via custom ML model.",
+      "date": "2026-03-02"
+    },
+    {
+      "id": "ev-3",
+      "type": "proof",
+      "title": "Proof of Skill Verified: E-Commerce API Store",
+      "description": "Deterministic repository inspection passed all 4 quality checks.",
+      "date": "2026-03-15"
+    },
+    {
+      "id": "ev-4",
+      "type": "interview",
+      "title": "Mock Technical Interview Evaluated",
+      "description": "Scored 82.5/100 on JavaScript Event Loop architecture.",
+      "date": "2026-03-20"
+    }
+  ],
+  "latest_dataset_analysis": null
+}

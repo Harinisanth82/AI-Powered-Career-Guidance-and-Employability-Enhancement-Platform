@@ -1,0 +1,102 @@
+[
+  {
+    "id": "proj-1",
+    "title": "Full-Stack Enterprise Job & Talent Portal",
+    "career": "Full Stack Developer",
+    "difficulty": "Intermediate",
+    "estimated_hours": 45,
+    "skills_developed": ["React", "Node.js", "Express", "SQL", "MongoDB", "REST APIs", "TypeScript"],
+    "description": "Production-grade applicant tracking and job discovery platform featuring role-based auth, resume upload, search filtering, and job status tracking.",
+    "deliverables": ["GitHub repository with frontend & backend", "PostgreSQL schema with migrations", "Postman API test suite", "Interactive demo UI"]
+  },
+  {
+    "id": "proj-2",
+    "title": "Real-Time Collaborative Markdown & Whiteboard Canvas",
+    "career": "Full Stack Developer",
+    "difficulty": "Advanced",
+    "estimated_hours": 50,
+    "skills_developed": ["React", "TypeScript", "Node.js", "WebSockets", "Docker"],
+    "description": "Multi-user collaborative workspace with live cursor syncing, operational transform / CRDT state sync, and document version history.",
+    "deliverables": ["Full repo with Dockerfile", "WebSocket benchmark test", "README with architectural diagrams"]
+  },
+  {
+    "id": "proj-3",
+    "title": "Automated Customer Churn Prediction & Model Explainer",
+    "career": "Data Scientist",
+    "difficulty": "Advanced",
+    "estimated_hours": 40,
+    "skills_developed": ["Python", "Pandas", "Scikit-learn", "Machine Learning", "Data Visualization"],
+    "description": "End-to-end data science pipeline analyzing telecom customer retention, training Random Forest & Gradient Boosted classifiers with SHAP feature explainability.",
+    "deliverables": ["Jupyter notebook with complete EDA", "Trained model joblib pipeline", "Confusion matrix and ROC-AUC evaluation report"]
+  },
+  {
+    "id": "proj-4",
+    "title": "Production Computer Vision & Defect Detection API",
+    "career": "AI/ML Engineer",
+    "difficulty": "Advanced",
+    "estimated_hours": 55,
+    "skills_developed": ["Python", "Deep Learning", "FastAPI", "Docker", "Machine Learning"],
+    "description": "Convolutional neural network inference service packaged as a containerized FastAPI REST endpoint with batch inference and latency monitoring.",
+    "deliverables": ["Containerized FastAPI service", "PyTorch training script", "Swagger/OpenAPI docs", "Stress-test benchmarks"]
+  },
+  {
+    "id": "proj-5",
+    "title": "Multi-Environment Infrastructure-as-Code & CI/CD Pipeline",
+    "career": "Cloud/DevOps Engineer",
+    "difficulty": "Advanced",
+    "estimated_hours": 35,
+    "skills_developed": ["Linux", "Docker", "Kubernetes", "Git", "CI/CD"],
+    "description": "Complete infrastructure automation blueprint utilizing Docker container builds, automated unit/integration tests in GitHub Actions, and Kubernetes Helm deployment.",
+    "deliverables": ["GitHub Actions workflow YAML", "Kubernetes manifests", "Container security scan output"]
+  },
+  {
+    "id": "proj-6",
+    "title": "Network Packet Sniffer & Anomaly Detection Firewall",
+    "career": "Cybersecurity Specialist",
+    "difficulty": "Advanced",
+    "estimated_hours": 40,
+    "skills_developed": ["Network Security", "Linux", "Python", "SQL"],
+    "description": "System daemon monitoring raw network sockets for suspicious SYN flood signatures, port scans, and unencrypted credential traffic with alerting.",
+    "deliverables": ["Python socket packet analyzer", "Threat detection rule set", "Wireshark PCAP verification capture"]
+  },
+  {
+    "id": "proj-7",
+    "title": "Spring Boot Distributed Banking Transaction API",
+    "career": "Java Developer",
+    "difficulty": "Intermediate to Advanced",
+    "estimated_hours": 45,
+    "skills_developed": ["Java", "Spring Boot", "SQL", "REST APIs", "Docker"],
+    "description": "ACID-compliant banking transaction service with idempotent account transfers, optimistic locking, audit logs, and Spring Security JWT.",
+    "deliverables": ["Spring Boot service repository", "JPA database entities & migrations", "Comprehensive JUnit integration tests"]
+  },
+  {
+    "id": "proj-8",
+    "title": "High-Throughput Distributed Rate Limiter & Cache",
+    "career": "Backend Developer",
+    "difficulty": "Intermediate",
+    "estimated_hours": 35,
+    "skills_developed": ["Python", "SQL", "REST APIs", "Docker"],
+    "description": "Token bucket rate limiting middleware designed to throttle API abuse across distributed worker nodes with Redis and PostgreSQL fallback.",
+    "deliverables": ["Benchmarked rate limiting server", "Load test script (k6 or locust)", "Deployment guide"]
+  },
+  {
+    "id": "proj-9",
+    "title": "Executive Business Intelligence & Cohort Retention Dashboard",
+    "career": "Data Analyst",
+    "difficulty": "Beginner to Intermediate",
+    "estimated_hours": 30,
+    "skills_developed": ["SQL", "Data Visualization", "Python", "Pandas"],
+    "description": "Multi-dimensional analytical report modeling user retention cohorts, customer lifetime value (LTV), and seasonal sales performance with interactive drill-downs.",
+    "deliverables": ["SQL data mart transform scripts", "Interactive dashboard file / export", "Executive summary slide deck"]
+  },
+  {
+    "id": "proj-10",
+    "title": "Comprehensive Mobile Banking Design System & Usability Audit",
+    "career": "UI/UX Designer",
+    "difficulty": "Intermediate",
+    "estimated_hours": 35,
+    "skills_developed": ["Figma", "Product Strategy"],
+    "description": "Complete atomic design system including typography tokens, accessible color palettes, micro-interactions, responsive wireframes, and user testing metrics.",
+    "deliverables": ["Figma component library link", "Usability test synthesis report", "Interactive click-through prototype"]
+  }
+]

@@ -1,0 +1,6 @@
+{
+  "name": "AI-Based Career Guidance Framework",
+  "description": "Enterprise-grade career guidance framework and employability development platform powered by custom ML, NLP, and recommendation engines.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
